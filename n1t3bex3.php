@@ -5,7 +5,10 @@
      * i lletra en negreta en HTML.
      * 
      * */
-    $nom = 'Diego';
+    
+    define("NOMBRE", "Diego");
+
+//$nom = 'Diego';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +19,6 @@
     <title>Ejercicio 3</title>
 </head>
 <body>
-    <h1><strong><?php echo $nom;?></strong></h1>
+    <h1><strong><?php echo NOMBRE;?></strong></h1>
 </body>
 </html>
